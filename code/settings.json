@@ -1,0 +1,7 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "[ruby]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    }
+}
