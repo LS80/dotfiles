@@ -5,6 +5,7 @@ user_pref("browser.urlbar.openintab", true);
 user_pref("browser.urlbar.maxRichResults", 20);
 user_pref("browser.urlbar.doubleClickSelectsAll", true);
 user_pref("browser.ctrlTab.previews", true);
+user_pref("browser.bookmarks.autoExportHTML", true);
 
 user_pref("view_source.editor.external", true);
 user_pref("view_source.editor.path", "/usr/bin/code");
