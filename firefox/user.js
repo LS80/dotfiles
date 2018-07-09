@@ -7,6 +7,10 @@ user_pref("browser.urlbar.doubleClickSelectsAll", true);
 user_pref("browser.ctrlTab.previews", true);
 user_pref("browser.bookmarks.autoExportHTML", true);
 
+user_pref("browser.newtabpage.activity-stream.disableSnippets", true);
+user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);
+user_pref("browser.newtabpage.activity-stream.topSitesRows", 3);
+
 user_pref("view_source.editor.external", true);
 user_pref("view_source.editor.path", "/usr/bin/code");
 
