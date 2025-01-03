@@ -1,0 +1,15 @@
+[core]
+	editor = code --wait
+[diff]
+	tool = code
+[difftool "code"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[push]
+	default = simple
+[alias]
+	l = log --graph --pretty=format:'%C(yellow)%h%Creset %C(magenta)%D%Creset %C(bold)%s%Creset %C(bold blue)%an%Creset %C(green)(%cr)'
+	b = for-each-ref --sort='committerdate' --format='%(committerdate:iso8601)%09%(refname:lstrip=-1)' refs/heads
+[interactive]
+	singleKey = true
+[rebase]
+	autosquash = true
